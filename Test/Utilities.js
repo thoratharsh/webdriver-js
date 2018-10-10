@@ -1,24 +1,25 @@
-const ts= require('webdriverio');
+const ts = require('webdriverio');
 
-class Utilities{
-    openApplication(url){
+class Utilities {
+
+    openApplication(url) {
         browser.url("https://www.google.com");
-        browser.windowHandleMaximize();    
+        browser.windowHandleMaximize();
     }
 
-    inputText(locator,text){
-        browser.addValue(locator,text);
+    inputText(locator, text) {
+        browser.addValue(locator, text);
     }
-    clearText(locator,text){
-        
+    clearText(locator, text) {
+
     }
-    selectPicklistValueByIndex(locator,index){
-        browser.selectByIndex(locator,index);
+    selectPicklistValueByIndex(locator, index) {
+        browser.selectByIndex(locator, index);
     }
-    waitUntilElementIsVisible(locator,waitTime=10000){
-        browser.waitForVisible(locator,waitTime);
+    waitUntilElementIsVisible(locator, waitTime = 10000) {
+        browser.waitForVisible(locator, waitTime);
     }
 
 }
 
-var exports = module.exports = {}; 
+export default new Utilities();
