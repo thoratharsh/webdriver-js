@@ -22,4 +22,4 @@ class Utilities {
 
 }
 
-export default new Utilities();
+module.exports=new Utilities();
