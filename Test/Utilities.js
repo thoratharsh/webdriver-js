@@ -95,6 +95,10 @@ class Utilities {
         browser.refresh();
     }
 
+    get getAllWindowHandles(){
+        return browser.windowHandles();
+    }
+
 }
 
 module.exports = new Utilities();
