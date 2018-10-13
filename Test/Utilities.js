@@ -46,15 +46,15 @@ class Utilities {
         browser.waitForVisible(locator, waitTime);
     }
 
-    get getTextOfElement(locator) {
+    getTextOfElement(locator) {
         return browser.element(locator).getText;
     }
 
-    get getTitleOfCurrentPage() {
+    getTitleOfCurrentPage() {
         return browser.getTitle();
     }
 
-    get getURLOfCurrentPage() {
+    getURLOfCurrentPage() {
         return browser.getUrl;
     }
 
@@ -66,7 +66,7 @@ class Utilities {
         browser.dismissAlert();
     }
 
-    get getAlertText() {
+    getAlertText() {
         return browser.getAlertText();
     }
 
@@ -78,7 +78,7 @@ class Utilities {
         browser.forward();
     }
 
-    get getNumberofMatchingElementsBySelector(locator) {
+    getNumberofMatchingElementsBySelector(locator) {
         var numberOfElements = browser.elements(locator);
         return numberOfElements.length;
     }
@@ -95,7 +95,7 @@ class Utilities {
         browser.refresh();
     }
 
-    get getAllWindowHandles(){
+    getAllWindowHandles(){
         return browser.windowHandles();
     }
 
