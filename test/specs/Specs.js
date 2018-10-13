@@ -1,5 +1,5 @@
 const ts = require('webdriverio');
-const test = require('../Utilities');
+const test = require('../Utilities/Utilities');
 
 describe('App', function () {
     it('should open a driver', function () {
