@@ -1,10 +1,14 @@
 const ts = require('webdriverio');
 
 class Utilities {
-
+    
     openApplication(url) {
-        browser.url("https://www.google.com");
+        browser.url(url);
         browser.windowHandleMaximize();
+    }
+
+    click(locator){
+        browser.click(locator);
     }
 
     inputText(locator, text) {
