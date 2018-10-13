@@ -52,7 +52,7 @@ exports.config = {
             ], 
             prefs: {
                 "download.default_directory": "C:\\Users\\Rajvardhan\\Desktop\\Test",
-                "browser.download.dir":"C:\\Users\\Rajvardhan\\Desktop\\Test"
+                "browser.download.dir":"C:\\Users\\*\\Desktop\\Test"
             }
         }
     }],

@@ -83,7 +83,7 @@ class Utilities {
     }
 
     getNumberofMatchingElementsBySelector(locator) {
-        var numberOfElements = browser.elements(locator);
+        var numberOfElements = $$(locator);
         return numberOfElements.length;
     }
 
@@ -103,6 +103,25 @@ class Utilities {
         return browser.windowHandles();
     }
 
-}
+    doubleClickonElement(locator){
+        browser.doubleClick(locator);
+    }
 
+    dragAndDropElement(sourceLocator,targetLocator){
+        browser.dragAndDrop(sourceLocator,targetLocator);
+    }
+
+    submitForm(locator){
+        browser.submitFrom(locator);
+    }
+
+    getAttributeOfElement(locator,attribute){
+        return browser.getAttribute(locator,attribute);
+    }
+
+    takeScreenshot(){
+        browser.screenshot();
+    }
+
+}
 module.exports = new Utilities();
