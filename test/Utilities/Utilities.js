@@ -123,5 +123,15 @@ class Utilities {
         browser.screenshot();
     }
 
+    verifyElementIsEnabled(locator){
+        var result=browser.waitForEnabled(locator,3000);
+        expect(result).to.be.true;        
+    }
+
+    verifyTextOfElementIsMatching(locator,text){
+        var txt=browser.getText(locator);
+        expect(txt).to.be.equal(text);
+    }
+
 }
 module.exports = new Utilities();

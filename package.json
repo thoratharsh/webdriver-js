@@ -6,7 +6,8 @@
   "dependencies": {
     "selenium-webdriver": "^4.0.0-alpha.1",
     "webdriverio": "^4.13.2",
-    "csv": "^4.0.0"
+    "csv": "^4.0.0",
+    "chai": "^4.2.0"
   },
   "devDependencies": {
     "selenium-standalone": "^6.15.3",
