@@ -1,13 +1,37 @@
 const ts = require('webdriverio');
+const WAIT_TIME=5000;
 
 class Utilities {
-    
     openApplication(url) {
         browser.url(url);
         browser.windowHandleMaximize();
     }
 
     click(locator){
+        browser.click(locator);
+    }
+
+    selectCheckbox(locator){
+        var result=browser.isSelected(locator);
+        if(result==true){
+            continue;
+        }
+        else{
+            browser.click(locator);
+        }
+    }
+
+    unSelectCheckbox(locator){
+        var result=browser.isSelected(locator);
+        if(result==true){
+            browser.click(locator);
+        }
+        else{
+            continue;
+        }
+    }
+
+    selectRadiobox(locator){
         browser.click(locator);
     }
 
@@ -128,9 +152,36 @@ class Utilities {
         expect(result).to.be.true;        
     }
 
+    verifyElementIsVisible(locator){
+        var result=browser.waitForVisible(locator,this.WAIT_TIME);
+        expect(result).to.be.equal.true;
+    }
+
+    verifyCheckboxIsSelected(locator){
+        var result=browser.isSelected(locator);
+        expect(result).to.be.equal.true;
+    }
+
+    verifyCheckboxIsNotSelected(locator){
+        var result=browser.isSelected(locator);
+        expect(result).to.be.equal.false;
+    }
+
     verifyTextOfElementIsMatching(locator,text){
         var txt=browser.getText(locator);
         expect(txt).to.be.equal(text);
+    }
+
+    getCSSPropertyOfElement(locator,cssProperty){
+        return browser.getCssProperty(locator,cssProperty);
+    }
+
+    uploadFile(locator,path){
+        browser.chooseFile(locator,path);
+    }
+
+    switchToOtherWindow(windowHandle){
+        browser.switchTab(windowHandle);
     }
 
 }
