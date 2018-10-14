@@ -1,4 +1,5 @@
 const ts = require('webdriverio');
+const ts1 = require('chai');
 const WAIT_TIME=5000;
 
 class Utilities {
