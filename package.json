@@ -18,7 +18,7 @@
     "chromedriver": "^2.31.0"
   },
   "scripts": {
-    "test": "test"
+    "test": "wdio wdio.conf.js"
   },
   "author": "",
   "license": "ISC"
