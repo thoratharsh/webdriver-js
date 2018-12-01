@@ -1,66 +1,11 @@
-[14780:8604:1114/230954.489:ERROR:data_store_impl.cc(131)] Failed to open Data Reduction Proxy DB: 3
-[14780:11292:1114/230954.734:WARNING:leveldb_database.cc(103)] Unable to open C:\Users\Rajvardhan\webdriver-js\chrome\user-data\Default\Thumbnails: IO error: C:\Users\Rajvardhan\webdriver-js\chrome\user-data\Default\Thumbnails/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[14780:8620:1114/230956.202:WARNING:CONSOLE(0)] "HTML Imports is deprecated and will be removed in M73, around March 2019. Please use ES modules instead. See https://www.chromestatus.com/features/5144752345317376 for more details.", source:  (0)
-[14780:8092:1114/230956.486:WARNING:value_store_frontend.cc(42)] Reading mfehgcgbbipciphmccgaenjidiccnmng.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[14780:8092:1114/230956.498:WARNING:value_store_frontend.cc(42)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[14780:8092:1114/230956.506:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[14780:8620:1114/230956.546:WARNING:CONSOLE(77)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: https://ssl.gstatic.com/chrome/components/doodle-notifier-02.html (77)
-[14780:8092:1114/230956.554:WARNING:value_store_frontend.cc(42)] Reading aapnijgdinlhnhlmodcfapnahmbfebeb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[14780:12100:1114/230956.646:ERROR:backend_impl.cc(1065)] Critical error found -8
-[14780:12100:1114/230956.646:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230956.646:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230956.646:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230956.646:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230956.646:ERROR:entry_impl.cc(1062)] No file for b3020040
-[14780:12100:1114/230956.646:ERROR:entry_impl.cc(985)] Failed to save user data
-[14780:12100:1114/230956.646:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230956.734:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230956.734:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230956.734:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230956.877:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230956.890:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230956.906:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230956.917:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.057:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.073:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.089:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.210:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.226:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.242:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.258:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.386:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.398:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.426:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.594:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.756:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.889:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.905:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230957.921:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.054:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.070:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.086:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.102:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.114:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.130:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.142:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.158:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.172:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.200:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.216:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.360:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.368:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.372:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.372:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.392:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.412:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.412:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.424:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.436:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.444:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.444:WARNING:storage_block-inl.h(131)] Failed data load.
-[14780:12100:1114/230958.448:ERROR:entry_impl.cc(985)] Failed to save user data
-[14780:1108:1114/230959.429:WARNING:session_storage_database.cc(430)] Failed to open leveldb in C:\Users\Rajvardhan\webdriver-js\chrome\user-data\Default\Session Storage, error: IO error: C:\Users\Rajvardhan\webdriver-js\chrome\user-data\Default\Session Storage/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[14780:1108:1114/230959.801:ERROR:leveldb_database.cc(313)] Failed to open LevelDB database from C:\Users\Rajvardhan\webdriver-js\chrome\user-data\Default\IndexedDB\https_www.google.com_0.indexeddb.leveldb,IO error: C:\Users\Rajvardhan\webdriver-js\chrome\user-data\Default\IndexedDB\https_www.google.com_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[14780:1108:1114/230959.801:ERROR:indexed_db_backing_store.cc(1039)] Unable to open backing store, not trying to recover - IO error: C:\Users\Rajvardhan\webdriver-js\chrome\user-data\Default\IndexedDB\https_www.google.com_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[14780:8620:1114/231000.084:INFO:CONSOLE(8)] "SW registered", source: https://www.google.com/_/chrome/newtab?ie=UTF-8 (8)
-[14780:8620:1114/231009.385:INFO:CONSOLE(2)] "JQMIGRATE: Migrate is installed, version 1.4.1", source: https://downloadming.fun/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1 (2)
+[14488:19512:1201/164406.268:WARNING:leveldb_database.cc(103)] Unable to open C:\Users\Rajvardhan\webdriver-js\chrome\user-data\Default\Thumbnails: IO error: C:\Users\Rajvardhan\webdriver-js\chrome\user-data\Default\Thumbnails/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[14488:18940:1201/164406.559:ERROR:data_store_impl.cc(131)] Failed to open Data Reduction Proxy DB: 3
+[14488:1548:1201/164406.693:WARNING:CONSOLE(0)] "HTML Imports is deprecated and will be removed in M73, around March 2019. Please use ES modules instead. See https://www.chromestatus.com/features/5144752345317376 for more details.", source:  (0)
+[14488:1548:1201/164406.710:WARNING:CONSOLE(77)] "document.registerElement is deprecated and will be removed in M73, around March 2019. Please use window.customElements.define instead. See https://www.chromestatus.com/features/4642138092470272 for more details.", source: https://ssl.gstatic.com/chrome/components/doodle-notifier-02.html (77)
+[14488:1548:1201/164406.763:INFO:CONSOLE(8)] "SW registered", source: https://www.google.com/_/chrome/newtab?ie=UTF-8 (8)
+[14488:17760:1201/164406.851:ERROR:leveldb_database.cc(313)] Failed to open LevelDB database from C:\Users\Rajvardhan\webdriver-js\chrome\user-data\Default\IndexedDB\https_www.google.com_0.indexeddb.leveldb,IO error: C:\Users\Rajvardhan\webdriver-js\chrome\user-data\Default\IndexedDB\https_www.google.com_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[14488:17760:1201/164406.852:ERROR:indexed_db_backing_store.cc(1039)] Unable to open backing store, not trying to recover - IO error: C:\Users\Rajvardhan\webdriver-js\chrome\user-data\Default\IndexedDB\https_www.google.com_0.indexeddb.leveldb/MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[14488:16912:1201/164407.589:WARNING:value_store_frontend.cc(42)] Reading mfehgcgbbipciphmccgaenjidiccnmng.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[14488:16912:1201/164407.593:WARNING:value_store_frontend.cc(42)] Reading ahfgeienlihckogmohjhadlkjgocpleb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[14488:16912:1201/164407.597:WARNING:value_store_frontend.cc(42)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[14488:16912:1201/164407.615:WARNING:value_store_frontend.cc(42)] Reading aapnijgdinlhnhlmodcfapnahmbfebeb.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)

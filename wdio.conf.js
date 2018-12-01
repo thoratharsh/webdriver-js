@@ -1,5 +1,4 @@
 exports.config = {
-    
     //
     // ==================
     // Specify Test Files
@@ -87,7 +86,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://www.google.com',
+    baseUrl : "https://www.google.com",
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 60000,
@@ -130,6 +129,12 @@ exports.config = {
     // Make sure you have the wdio adapter package for the specific framework installed
     // before running any tests.
     framework: 'mocha',
+    reporters: ['html','text'],
+        reporterOptions: {
+            html: {
+                outFile: './Reports/report.html'
+            }
+        },
     //
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
@@ -143,7 +148,7 @@ exports.config = {
         timeout: 60000
     },
     seleniumArgs: {
-        seleniumArgs: ["-port", "4441"],
+        seleniumArgs: ["-port", "4444"],
         javaArgs: [
           "-Xmx1024m"
         ]

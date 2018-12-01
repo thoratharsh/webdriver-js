@@ -3,8 +3,9 @@ const ts1 = require('chai');
 const WAIT_TIME=5000;
 
 class Utilities {
-    openApplication(url) {
-        browser.url(url);
+    openApplication() {
+        browser.url('/');
+        browser.deleteCookie();
         browser.windowHandleMaximize();
     }
 
