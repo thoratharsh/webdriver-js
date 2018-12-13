@@ -129,7 +129,7 @@ exports.config = {
     // Make sure you have the wdio adapter package for the specific framework installed
     // before running any tests.
     framework: 'mocha',
-    reporters: ['html'],
+    reporters: ['html','spec'],
         reporterOptions: {
             html: {
                 outFile: './Reports/report.html'
