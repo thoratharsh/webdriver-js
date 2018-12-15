@@ -15,10 +15,7 @@ class Utilities {
 
     selectCheckbox(locator){
         var result=browser.isSelected(locator);
-        if(result==true){
-            continue;
-        }
-        else{
+        if(result==false){
             browser.click(locator);
         }
     }
@@ -27,9 +24,6 @@ class Utilities {
         var result=browser.isSelected(locator);
         if(result==true){
             browser.click(locator);
-        }
-        else{
-            continue;
         }
     }
 

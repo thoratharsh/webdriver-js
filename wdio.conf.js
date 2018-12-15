@@ -86,7 +86,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl : "https://www.google.com",
+    baseUrl : "https://opensource-demo.orangehrmlive.com",
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 60000,
@@ -145,7 +145,8 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 60000
+        timeout: 60000,
+        compilers: ['js:babel-register']
     },
     seleniumArgs: {
         seleniumArgs: ["-port", "4444"],

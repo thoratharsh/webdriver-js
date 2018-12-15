@@ -1,16 +1,12 @@
 const ts = require('webdriverio');
 const test = require('../Utilities/Utilities');
+var LoginPage= require('../pageObjects/LoginPage');
 
 describe('Test Scenario 1', function () {
-    it('Should able to open google and type text', function () {
+    it('TC001_should able to login to orange HRM', function () {
         test.openApplication();
-        test.waitUntilElementIsVisible("input[name='q']");
-        test.inputText("input[name='q']", 'Today is my birthday')
-    });
-
-    it('Should able to open google and type another text', function () {
-        test.openApplication();
-        test.waitUntilElementIsVisible("input[name='q']");
-        test.inputText("input[name='q']", 'Today is your birthday')
+        test.inputText(LoginPage.username(),'Admin');
+        test.inputText(LoginPage.password(),'admin123');
+        test.click(LoginPage.loginButton());
     });
 });	
