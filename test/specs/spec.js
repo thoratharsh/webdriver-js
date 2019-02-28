@@ -8,5 +8,6 @@ describe('Test Scenario 1', function () {
         test.inputText(LoginPage.username(),'Admin');
         test.inputText(LoginPage.password(),'admin123');
         test.click(LoginPage.loginButton());
+        test.click(LoginPage.loginButton());
     });
 });	
